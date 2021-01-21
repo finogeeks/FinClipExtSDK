@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author             = { "developer" => "developer@finogeeks.com" }
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => 'https://github.com/finogeeks/MOPSDK_Extension.git', :tag =>"#{s.version}" }
+  s.source       = { :git => 'https://github.com/finogeeks/FinClipExtSDK.git', :tag =>"#{s.version}" }
   s.vendored_frameworks = "FinAppletExt.framework" 
   s.requires_arc = true
 end
