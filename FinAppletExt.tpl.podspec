@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                     this is common
                    DESC
-  s.homepage     = "https://mp.finogeeks.com"
+  s.homepage     = "https://www.finclip.com"
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
