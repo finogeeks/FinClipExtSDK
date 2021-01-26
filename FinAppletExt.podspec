@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FinAppletExt"
-  s.version      = "2.14.29"
+  s.version      = "__finappletext_version__"
   s.summary      = "凡泰小程序SDK."
   s.description  = <<-DESC
                     this is common
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/finogeeks/FinClipExtSDK.git', :tag =>"#{s.version}" }
   s.vendored_frameworks = "FinAppletExt.framework" 
   s.requires_arc = true
-  s.dependency 'FinApplet','2.14.29'
+  s.dependency 'FinApplet','__finappletext_version__'
 end
