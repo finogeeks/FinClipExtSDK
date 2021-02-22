@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/finogeeks/FinClipExtSDK.git', :tag =>"#{s.version}" }
   s.vendored_frameworks = "FinAppletExt.framework" 
   s.requires_arc = true
-  s.dependency 'FinApplet','2.20.17'
+  s.dependency 'FinApplet','2.15.0'
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
