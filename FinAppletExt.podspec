@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FinAppletExt"
-  s.version      = "2.23.5"
+  s.version      = "2.24.1"
   s.summary      = "凡泰小程序SDK."
   s.description  = <<-DESC
                     this is common
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/finogeeks/FinClipExtSDK.git', :tag =>"#{s.version}" }
   s.vendored_frameworks = "FinAppletExt.framework" 
   s.requires_arc = true
-  s.dependency 'FinApplet','2.23.5'
+  s.dependency 'FinApplet','2.24.1'
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
