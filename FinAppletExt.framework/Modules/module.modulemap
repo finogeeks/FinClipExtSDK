@@ -1,6 +1,0 @@
-framework module FinAppletExt {
-  umbrella header "FinAppletExt.h"
-
-  export *
-  module * { export * }
-}
