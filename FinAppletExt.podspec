@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "8.0"
   s.source       = { :git => 'https://github.com/finogeeks/FinClipExtSDK.git', :tag =>"#{s.version}" }
-  s.resources = ['FinClipExt/FinAppletExt.bundle']
-  s.vendored_frameworks = "FinClipExt/FinAppletExt.framework" 
+  s.vendored_frameworks = "FinAppletExt.framework" 
   s.requires_arc = true
   s.dependency 'FinApplet','2.33.3'
   s.pod_target_xcconfig = {
