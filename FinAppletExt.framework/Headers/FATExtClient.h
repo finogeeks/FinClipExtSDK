@@ -21,4 +21,3 @@
 - (UIView *)webViewWithFrame:(CGRect)frame URL:(NSURL *)URL appletId:(NSString *)appletId;
 
 @end
-
