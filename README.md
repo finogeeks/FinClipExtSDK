@@ -8,7 +8,7 @@
     <strong>FinClip iOS SDK Extension</strong></br>
 <p>
 <p align="center"> 
-        小程序 iOS 端拓展 SDK
+        小程序 iOS 端扩展 SDK
 <p>
 
 <p align="center"> 
@@ -40,12 +40,12 @@
 - 易用且安全的数据交互；
 - 高效且简单的开发；
 
-## 💿 拓展 SDK 是什么？
-为了保证 SDK 的安全稳定性，控制 SDK 体积（宿主 APP 在集成 FinClip SDK后体积增长不会超过 2M），FinClip 将 SDK 拆分为核心 SDK 与拓展 SDK，后者是前者的补充，因此使用拓展 SDK 也必须依赖核心 SDK。
+## 💿 扩展 SDK 是什么？
+为了保证 SDK 的安全稳定性，控制 SDK 体积（宿主 APP 在集成 FinClip SDK后体积增长不会超过 2M），FinClip 将 SDK 拆分为核心 SDK 与扩展 SDK，后者是前者的补充，因此使用扩展 SDK 也必须依赖核心 SDK。
 
-在拓展 SDK 中，主要包含有定位，地图，录音，读写剪切板，蓝牙等相关组件及 API。
+在扩展 SDK 中，主要包含有定位，地图，录音，读写剪切板，蓝牙等相关组件及 API。
 
-## 📦 如何集成拓展 SDK
+## 📦 如何集成扩展 SDK
 您可以查看 [这里](https://www.finclip.com/mop/document/runtime-sdk/ios/ios-api.html#_3-%E6%89%A9%E5%B1%95sdk) 获取 SDK 集成说明。
 
 
